@@ -1,0 +1,33 @@
+{
+  "resourceType": "Encounter",
+  "id": "f0e4bc37-8a30-4f32-885b-f0bb8a0e0fcd",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-encounter"
+    ]
+  },
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "AMB",
+    "display": "ambulatory"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "78831002",
+          "display": "Comprehensive eye examination (procedure)"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/1f7845f8-5fea-47d7-b531-394aee6bd8d5"
+  },
+  "period": {
+    "start": "2026-01-01T00:00:00.000+00:00",
+    "end": "2026-01-01T00:15:00.000+00:00"
+  }
+}
